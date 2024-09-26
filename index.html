@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/Login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <form class="login text-center text-light rounded">
+        <h2 class="mt-4 mb-4">Login</h2>
+        <div class="container">
+            <div class="username  mb-4 mt-4 ">
+                <input class="p-2 rounded-pill border-1 border-light bg-transparent " type="text" name="username"
+                    id="username" placeholder="Username">
+                <i class="fa-solid fa-user position-relative "></i>
+            </div>
+            <div class="password  mb-4 mt-4 ">
+                <input class="p-2 rounded-pill bg-transparent border-1 border-light" type="password" name="password"
+                    id="password" placeholder="Password">
+                <i class="fa-solid fa-lock position-relative"></i>
+            </div>
+
+            <div class="forgot me-4 ms-4 mb-4 mt-4 d-flex justify-content-between gap-5 ">
+                <div class="checkbox">
+                    <input type="checkbox" name="remember" id="remember">
+                    <label for="checkbox">Remember Me</label>
+                </div>
+                <a href="#">Forget Password?</a>
+            </div>
+            <button class=" mb-4 mt-4 rounded-pill btn btn-light width-full
+        " type="submit">Login</button>
+            <p>Don't have an account? <a href="#" class="">Register</a></p>
+        </div>
+    </form>
+
+</body>
+
+</html>

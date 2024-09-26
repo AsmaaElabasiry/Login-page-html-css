@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    height: 100vh;
+    background-image: url(../img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+@media(max-width767px) {
+    body {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+form {
+    border: 1px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(5px);
+    background-color: transparent;
+}
+
+
+.username input,
+.password input {
+    width: 80%;
+    caret-color: white;
+
+}
+
+input::placeholder {
+    color: white;
+}
+
+.username input:focus::placeholder,
+.password input:focus::placeholder {
+    opacity: 0;
+}
+
+div i {
+    right: 30px;
+}
+
+div i:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+button {
+    width: 80%;
+}
+
+p {
+    font-size: 13px;
+}
+
+.forgot a {
+    text-decoration: none;
+    color: white;
+}
+
+.forgot a:hover {
+    color: rgba(0, 0, 255, 0.861);
+}
